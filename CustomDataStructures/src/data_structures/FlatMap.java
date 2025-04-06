@@ -5,6 +5,10 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.function.Consumer;
 
+// A hash table implementation that utilizes robin hood hashing for storing key-value entries, improving the average time of insertion, deletion, and retrieval. 
+// Stores key-value entries in separated arrays instead of node objects to minimize memory footprint. Key-value pairs are inserted in insertion order, and maintains that order despite frequent insertions and removal of entries.
+// Use of this hash table implementation is limited to single-threaded applications.
+
 public class FlatMap<K,V> implements Iterable<FlatMap.MapEntry<K, V>> { // extends AbstractMap<K,V> implements Map<K,V>{
 	
 	protected static final int FREE = -1;
