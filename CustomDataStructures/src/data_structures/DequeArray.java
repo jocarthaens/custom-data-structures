@@ -1,6 +1,6 @@
 package data_structures;
 
-public interface IDequeArray<E> extends ArrayInterface<E> {
+public interface DequeArray<E> extends ArrayInterface<E> {
 
 	
 	public void pushFront(E element);

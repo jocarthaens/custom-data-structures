@@ -1,8 +1,8 @@
-A custom implementation of data structures such as dynamic arrays and hash tables.
+A custom implementation of data structures such as dynamic arrays and hash tables. These 
 
 ## Features
 + Flat Hash Map that utilizes robin hood hashing for storing key-value, and uses arrays instead of node pointer objects in storing key-value pairs.
-+ Versatile Dynamic Array that can be used as either a list, double-ended queue, or stack (Use interfaces to lock the array into one type.).
++ Versatile Dynamic Array that can be used as either a list, double-ended queue, or stack (Use array interfaces to lock the array into one type.)
 + A bidirectional iterator, used in some data structures, that can iterate elements forward or backward.
 + Caching data structure that stores unused object of the same type for future reuse.
 + Object pool that generates and pools its own objects.

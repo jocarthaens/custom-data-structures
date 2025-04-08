@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class DynamicArray<E> implements Iterable<E>, IListArray<E>, IDequeArray<E>, IStackArray<E> {
+public class DynamicArray<E> implements Iterable<E>, ListArray<E>, DequeArray<E>, StackArray<E> {
 	protected static final int MAX_CAPACITY = Integer.MAX_VALUE - 8;
 	protected static final int DEFAULT_CAPACITY = 1 << 3;
 	

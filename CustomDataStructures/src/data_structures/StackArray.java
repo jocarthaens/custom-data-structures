@@ -1,6 +1,8 @@
 package data_structures;
 
-public interface IStackArray<E> extends ArrayInterface<E> {
+//
+
+public interface StackArray<E> extends ArrayInterface<E> {
 	
 	
 	public void push(E element);

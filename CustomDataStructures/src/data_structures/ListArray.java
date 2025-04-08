@@ -2,7 +2,7 @@ package data_structures;
 
 import java.util.Comparator;
 
-public interface IListArray<E> extends ArrayInterface<E> {
+public interface ListArray<E> extends ArrayInterface<E> {
 	
 	
 

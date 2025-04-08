@@ -7,47 +7,47 @@ public class VaultTuples {
 		abstract T getVal1();
 	}
 	
-	public interface IVaultValue02<T> {
+	public interface IVaultValue02<T> extends IVaultValue01<T> {
 		abstract void setVal2(Object key, T val);
 		abstract T getVal2();
 	}
 	
-	public interface IVaultValue03<T> {
+	public interface IVaultValue03<T> extends IVaultValue02<T> {
 		abstract void setVal3(Object key, T val);
 		abstract T getVal3();
 	}
 	
-	public interface IVaultValue04<T> {
+	public interface IVaultValue04<T> extends IVaultValue03<T> {
 		abstract void setVal4(Object key, T val);
 		abstract T getVal4();
 	}
 	
-	public interface IVaultValue05<T> {
+	public interface IVaultValue05<T> extends IVaultValue04<T> {
 		abstract void setVal5(Object key, T val);
 		abstract T getVal5();
 	}
 
-	public interface IVaultValue06<T> {
+	public interface IVaultValue06<T> extends IVaultValue05<T> {
 		abstract void setVal6(Object key, T val);
 		abstract T getVal6();
 	}
 	
-	public interface IVaultValue07<T> {
+	public interface IVaultValue07<T> extends IVaultValue06<T> {
 		abstract void setVal7(Object key, T val);
 		abstract T getVal7();
 	}
 	
-	public interface IVaultValue08<T> {
+	public interface IVaultValue08<T> extends IVaultValue07<T> {
 		abstract void setVal8(Object key, T val);
 		abstract T getVal8();
 	}
 	
-	public interface IVaultValue09<T> {
+	public interface IVaultValue09<T> extends IVaultValue08<T> {
 		abstract void setVal9(Object key, T val);
 		abstract T getVal9();
 	}
 	
-	public interface IVaultValue10<T> {
+	public interface IVaultValue10<T> extends IVaultValue09<T> {
 		abstract void setVal10(Object key, T val);
 		abstract T getVal10();
 	}
@@ -64,7 +64,7 @@ public class VaultTuples {
 	
 	
 	
-	
+	// Vault Tuples stores values and a modify key to permit change of stored elements.
 	
 	public static class VaultTuple1<T1> implements IVaultValue01<T1> {
 		
