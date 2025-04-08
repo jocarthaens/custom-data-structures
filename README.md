@@ -1,4 +1,4 @@
-An attempt at creating a custom implementation of data structures such as dynamic arrays and hash tables.
+A custom implementation of data structures such as dynamic arrays and hash tables.
 
 ## Features
 + Flat Hash Map that utilizes robin hood hashing for storing key-value, and uses arrays instead of node pointer objects in storing key-value pairs.
@@ -8,7 +8,7 @@ An attempt at creating a custom implementation of data structures such as dynami
 + Write-protected tuple where its stored data can only be overriden if an inputted key object has matched the tuple's key object that was introduced to the  upon the tuple's creation.
 
 ## To Add
-+ Flat Hash Set that shares similar features with FlatMaps, but only manages and stores unique objects.
-+ Read-Only version of data structures to prevent unauthorized modification of its elements.
-+ Priority Queue.
-+ Tree-based data structures, hopefully if concept is fully understood. (AVL Trees, RB Trees, Balanced Trees) 
++ Flat Hash Set that shares similar features with FlatMaps, but only stores unique , as opposed to FlatMap's keys and values.
++ Read-Only version of data structures to prevent unauthorized modification of its elements
++ Priority Queue
++ Tree-based data structures such as RB and AVL trees (hopefully, if concept is fully understood)
